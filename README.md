@@ -1,0 +1,2 @@
+# PyParser
+A small wrapper to merge argparse and ConfigParser. There are other possibly easier ways to do this. However this wrapper has the advantage, that you just include it and use it as you used argparse before with the additional comfort of being able to store them in a config. While it is still possible to overwrite them with a command line flag. Elements of the group None will not be included in the storing process.
